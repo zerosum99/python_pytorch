@@ -1,0 +1,100 @@
+@import url(http://spoqa.github.io/spoqa-han-sans/css/SpoqaHanSans-kr.css);
+
+body { counter-reset: section; }
+body .slide_wrapper > .slide { justify-content: flex-start !important; }
+
+.slide_wrapper {
+  border: 0px solid #fff;
+}
+.slide {
+  font-family: "Spoqa Han Sans", sans-serif;
+  font-size: 2.2rem;
+  border-bottom: .65rem solid #ed234b;
+  background-image: url(https://cdn.www.fastcampus.co.kr/wp-content/uploads/2017/11/fastcampus_logo_positive-1.png);
+  background-repeat: no-repeat;
+  background-position: 2rem 43rem;
+  background-size: auto 4rem;
+  padding: 3rem 4rem !important;
+  vertical-align: top !important
+}
+.slide_page {
+  display: block !important;
+  margin-right: 1rem;
+  color: #888 !important;
+  font-size: 1.5rem !important;
+}
+.slide_bg_img {
+  opacity: 1 !important;
+}
+.slide_footer {
+  right: 18rem !important;
+  left: 18rem !important;
+  bottom: 1.9rem !important;
+  color: #888 !important;
+  font-size: 1.3rem !important;
+  text-align: center !important;
+}
+
+.slide h1 { color: #333 !important; font-size: 5.0rem !important; font-weight: 500; }
+.slide h2 { font-size: 4.4rem !important; font-weight: 500; }
+.slide h3 { margin-bottom: 2.5rem; font-size: 3.8rem !important; font-weight: 500; }
+.slide h4 { margin-bottom: 2.5rem; font-size: 1rem; }
+.slide ul, .slide ol { margin: .5rem 0 !important; padding-left: 3rem; }
+.slide ul ul, .slide ol ul { font-size: 0.9em; }
+.slide pre { margin: 1rem 0 !important; }
+.slide pre code { font-size: 1.8rem !important; white-space: pre-wrap !important; }
+.slide img[alt~="small"] { width: auto !important; height: 22rem !important; }
+.slide img[alt~="medium"] { width: auto !important; height: 28rem !important; }
+.slide img[alt~="large"] { width: auto !important; height: 40rem !important; }
+.slide img[alt~="left"] {
+  display: block !important;
+  width: 25rem !important;
+  height: auto !important;
+  margin-right: 4rem !important;
+  float: left;
+}
+.slide img[alt~="right"] {
+  display: block !important;
+  width: 25rem !important;
+  height: auto !important;
+  margin-left: 4rem !important;
+  float: right;
+}
+
+
+.slide_wrapper:first-child > .slide,
+.slide_wrapper[data-template~="center"] > .slide {
+  padding-top: 1rem !important;
+  justify-content: center !important;
+  text-align: center !important;
+}
+.slide_wrapper:first-child > .slide .slide_page,
+.slide_wrapper[data-template~="section"] > .slide .slide_page {
+  display: none !important;
+}
+
+.slide_wrapper[data-template~="section"] > .slide {
+  padding-top: 2rem !important;
+  padding-right: 44rem !important;
+  justify-content: center !important;
+}
+.slide_wrapper[data-template~="section"] > .slide::before{
+  content: '';
+  position: absolute !important;
+  top: 5rem;
+  right: -50%;
+  width: 100%;
+  height: 50rem;
+  background-color: #ed234b;
+}
+.slide_wrapper[data-template~="section"] > .slide::after{
+  counter-increment: section;
+  content: '0' counter(section);
+  position: absolute !important;
+  top: -10rem;
+  right: -35%;
+  width: 100%;
+  height: 50rem;
+  font-size: 50rem;
+  color: #fff;
+}
