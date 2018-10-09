@@ -1,4 +1,3 @@
-#!/usr/bin/env python3
 """Provide example code to run ResNet-34 on Fashion MNIST dataset.
 """
 import argparse
@@ -302,6 +301,7 @@ def main():
 
     # Send the model to the GPU, if enabled and available.
     if args.cuda:
+        print(""" cuda model """)
         model = model.cuda()
 
     # Create the loss function and optimizer.

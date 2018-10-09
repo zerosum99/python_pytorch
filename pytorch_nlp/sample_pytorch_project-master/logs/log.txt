@@ -1,4 +1,54 @@
-2018-09-11 12:44:17,601 main.py --cuda
-2018-09-11 12:44:17,602 {'batch_size': 64, 'num_workers': 4, 'num_epochs': 30, 'learning_rate': 0.1, 'momentum': 0.9, 'checkpoint': None, 'cuda': True}
-2018-09-11 12:56:20,265 main.py --cuda
-2018-09-11 12:56:20,265 {'batch_size': 64, 'num_workers': 4, 'num_epochs': 30, 'learning_rate': 0.1, 'momentum': 0.9, 'checkpoint': None, 'cuda': True}
+2018-09-30 19:52:26,056 main.py --cuda
+2018-09-30 19:52:26,065 {'batch_size': 64, 'num_workers': 4, 'num_epochs': 30, 'learning_rate': 0.1, 'momentum': 0.9, 'checkpoint': None, 'cuda': True}
+2018-09-30 19:52:31,886 Epoch 0:
+2018-09-30 20:02:05,959   - [training] mean loss: 1.042
+2018-09-30 20:02:49,682   - [validation] accuracy: 0.806
+2018-09-30 20:02:51,284 Epoch 1:
+2018-09-30 20:16:20,608   - [training] mean loss: 0.461
+2018-09-30 20:17:04,631   - [validation] accuracy: 0.848
+2018-09-30 20:17:05,490 Epoch 2:
+2018-09-30 20:30:34,049   - [training] mean loss: 0.387
+2018-09-30 20:31:40,459   - [validation] accuracy: 0.851
+2018-09-30 20:31:42,407 Epoch 3:
+2018-09-30 20:44:08,174   - [training] mean loss: 0.416
+2018-09-30 20:44:58,417   - [validation] accuracy: 0.863
+2018-09-30 20:44:59,300 Epoch 4:
+2018-09-30 20:56:58,181   - [training] mean loss: 0.351
+2018-09-30 20:57:37,535   - [validation] accuracy: 0.875
+2018-09-30 20:57:38,179 Epoch 5:
+2018-09-30 21:11:25,465   - [training] mean loss: 0.313
+2018-09-30 21:12:18,609   - [validation] accuracy: 0.877
+2018-09-30 21:12:19,460 Epoch 6:
+2018-09-30 21:25:28,796   - [training] mean loss: 0.289
+2018-09-30 21:26:10,610   - [validation] accuracy: 0.888
+2018-09-30 21:26:11,115 Epoch 7:
+2018-09-30 21:36:03,543   - [training] mean loss: 0.264
+2018-09-30 21:36:42,703   - [validation] accuracy: 0.893
+2018-09-30 21:36:43,239 Epoch 8:
+2018-09-30 21:45:55,472   - [training] mean loss: 0.243
+2018-09-30 21:46:25,812   - [validation] accuracy: 0.894
+2018-09-30 21:46:26,301 Epoch 9:
+2018-09-30 21:58:02,848   - [training] mean loss: 0.226
+2018-09-30 21:59:00,231   - [validation] accuracy: 0.895
+2018-09-30 21:59:01,733 Epoch 10:
+2018-09-30 22:12:43,965   - [training] mean loss: 0.213
+2018-09-30 22:13:39,668   - [validation] accuracy: 0.901
+2018-09-30 22:13:40,847 Epoch 11:
+2018-09-30 22:27:41,969   - [training] mean loss: 0.197
+2018-09-30 22:28:32,662   - [validation] accuracy: 0.900
+2018-09-30 22:28:33,715 Epoch 12:
+2018-09-30 22:40:49,955 main.py --cuda
+2018-09-30 22:40:49,955 main.py --cuda
+2018-09-30 22:40:49,960 {'batch_size': 64, 'num_workers': 4, 'num_epochs': 30, 'learning_rate': 0.1, 'momentum': 0.9, 'checkpoint': None, 'cuda': True}
+2018-09-30 22:40:49,960 {'batch_size': 64, 'num_workers': 4, 'num_epochs': 30, 'learning_rate': 0.1, 'momentum': 0.9, 'checkpoint': None, 'cuda': True}
+2018-09-30 22:40:50,225 Epoch 0:
+2018-09-30 22:40:50,225 Epoch 0:
+2018-09-30 22:43:27,547 main.py --cuda
+2018-09-30 22:43:27,547 main.py --cuda
+2018-09-30 22:43:27,547 main.py --cuda
+2018-09-30 22:43:27,561 {'batch_size': 64, 'num_workers': 4, 'num_epochs': 30, 'learning_rate': 0.1, 'momentum': 0.9, 'checkpoint': None, 'cuda': True}
+2018-09-30 22:43:27,561 {'batch_size': 64, 'num_workers': 4, 'num_epochs': 30, 'learning_rate': 0.1, 'momentum': 0.9, 'checkpoint': None, 'cuda': True}
+2018-09-30 22:43:27,561 {'batch_size': 64, 'num_workers': 4, 'num_epochs': 30, 'learning_rate': 0.1, 'momentum': 0.9, 'checkpoint': None, 'cuda': True}
+2018-09-30 22:43:27,747 Epoch 0:
+2018-09-30 22:43:27,747 Epoch 0:
+2018-09-30 22:43:27,747 Epoch 0:

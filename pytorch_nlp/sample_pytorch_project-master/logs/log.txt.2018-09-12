@@ -1,0 +1,4 @@
+2018-09-11 12:44:17,601 main.py --cuda
+2018-09-11 12:44:17,602 {'batch_size': 64, 'num_workers': 4, 'num_epochs': 30, 'learning_rate': 0.1, 'momentum': 0.9, 'checkpoint': None, 'cuda': True}
+2018-09-11 12:56:20,265 main.py --cuda
+2018-09-11 12:56:20,265 {'batch_size': 64, 'num_workers': 4, 'num_epochs': 30, 'learning_rate': 0.1, 'momentum': 0.9, 'checkpoint': None, 'cuda': True}
